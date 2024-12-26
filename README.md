@@ -1,6 +1,6 @@
 # Kata Library Management System 📚
 
-> The Kata Library Management System is a simple Java console application designed to help manage a library’s book inventory and users. The system allows administrators and users to interact with the library resources through a command-line interface.
+> The Kata Library Management System is a simple Java console application designed to help manage a library’s book inventory and users. The system allows users to interact with the library resources through a command-line interface.
 
 ## ✨Features
 
