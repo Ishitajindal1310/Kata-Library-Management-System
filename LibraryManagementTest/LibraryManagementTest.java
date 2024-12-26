@@ -19,7 +19,7 @@ public class LibraryManagementTest {
     @Test
     public void testCheckOutBook() {
         Library library = new Library();
-        Book book = new Book("Harry Potter", "J.K. Rowling", "12345");
+        Book book = new Book("Harry", "J.K. Rowling", "12345");
         library.addBook(book);
         library.checkOutBook("12345");
         assertFalse(book.isAvailable());
@@ -27,7 +27,7 @@ public class LibraryManagementTest {
     @Test
     public void testReturnBook() {
         Library library = new Library();
-        Book book = new Book("Harry Potter", "J.K. Rowling", "12345");
+        Book book = new Book("Harry", "J.K. Rowling", "12345");
         library.addBook(book);
         library.checkOutBook("12345");
         library.returnBook("12345");
