@@ -1,6 +1,6 @@
 # Kata Library Management System 📚
 
-> The Kata Library Management System is a simple Java console application designed to help manage a library’s book inventory and users. The system allows users to interact with the library resources through a command-line interface.
+> The Kata Library Management System is a simple Java console application designed to help manage a library’s book inventory and users. The system allows administrators and users to interact with the library resources through a command-line interface.
 
 ## ✨Features
 
@@ -32,11 +32,16 @@ javac LibraryManagementSystem.java
 java LibraryManagementSystem
 
 ```
+## ✅ Test Cases 
+
+- testAddBook: Verifies that a book is successfully added to the library.
+- testRemoveBook: Ensures a book can be removed from the library.
+- testCheckOutBook: Checks that a book's availability is updated when checked out.
+- testReturnBook: Verifies that a checked-out book is marked as available when returned.
+
 
 ## 👍🏻  Contribution
 
 - Feel free to fork this repository and submit pull requests. If you find any bugs or would like to request features, open an issue in the GitHub repository.
 
 ---
-
- 
